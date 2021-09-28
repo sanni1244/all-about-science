@@ -3280,9 +3280,9 @@ form{
 }
 .w1{
   padding-bottom: 20px;
-  letter-spacing: 2px;
+  letter-spacing: normal;
   word-wrap: none;
-  word-spacing: 1px;
+  word-spacing: normal;
 }
 .imges1{
   width: 100%;
