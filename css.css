@@ -1,0 +1,234 @@
+*{
+    margin: auto;
+}
+
+
+.ssst{
+    font-weight: normal;
+    letter-spacing: normal;
+    padding-bottom: 5px;
+    }
+.align{
+    width: 600px;
+    text-align: center;
+}
+.fluids{
+    display: flex;
+    background-color: transparent;
+}
+.about-top{
+    position: fixed;
+    display: flex;
+
+    top: 0px;
+    padding-top: 10px;
+    min-height: 42px;
+  
+    background-color: gold;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+  }
+  .section3{
+    border-top: 5px dashed goldenrod;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  
+  }
+  .ment{
+      display: flex
+  }
+  .section3 p{
+    font-size: 20px;
+  }
+  @media(max-width: 700px){
+      .about-top{
+          min-height: 10%;
+      }
+      .align{
+        width: 80%;
+        text-align: center;
+    }
+  }
+  .section6 hr{
+    height: 6px;
+    width: 200px;
+    background-color: black;
+    float: left;
+    margin-bottom: 20px;
+    opacity: 6%;
+
+}
+
+.section5{
+    padding-top: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .section5 div{
+    max-width: 600px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .section5 h3{
+    font-style: italic;
+    font-size: 26px;
+    padding-bottom: 8px;
+    padding-top: 20px;
+  }
+  .section5 h1{
+    font-size: 40px;
+    padding: 20px 0px;
+    border-bottom: 5px solid gold;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.tel a{
+    text-decoration: none;
+}
+@media(max-width: 700px)
+{
+    .section6{
+    padding-top: 100px;
+}
+}
+.submit{
+    display: block;
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    font-family: Edwardian Script ITC;
+    margin: auto;    
+    margin-top: 30px;
+}
+body{
+    background-color: aliceblue;                        
+    color: black;
+    margin: auto;
+    word-wrap: inherit;
+}
+.background-image{
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-left: 10%;
+
+}
+@media(max-width: 700px){
+    .background-image{
+        height: 300px;
+        width: 100%;
+        margin-left: auto;
+
+    }
+}
+.ceo2{
+    display: flex; margin-right: 40px;
+    font-weight: 800;
+
+}
+@media(max-width: 700px){
+    .ceo2{
+        display: block;
+
+        margin-right: 10px;
+        font-weight: normal;
+    }   
+    .ceo{
+        display: block;
+        
+}
+}
+.ceo{
+    width: 400px;
+}
+.olivia{
+    letter-spacing: 3px;
+}
+.section2{
+    min-height:500px;
+}
+.bars{
+    margin-top: 40px;
+    max-width: 300px;
+    max-height: 150px;
+    min-height: 35px;
+    min-width: 200px;
+    font-size: 18px;
+    border-radius: 45px;
+  }
+.body{
+    background-image: url('media/download.jpg');
+    background-repeat: round;
+    height: 330px;
+    
+}
+.signup{
+    margin-top: 0px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 45px;
+
+}
+.foot{
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+}
+@media(max-width: 700px){
+    .foot{
+        left: 25%
+    }
+}
+.thanks{
+    padding: 30px;
+    padding-top: 150px;
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+.img1{
+    width: 50%;
+    height: 10%;
+}
+.familia{
+    display: flex;
+}
+.img2{
+    width: 50%;
+    height: 10%;
+}
+
+
+label{
+    margin-right: 10px;
+    padding-top: 24px;
+    font-size: 35px;
+    font-family: Edwardian Script ITC;
+}
+
+.scope{
+    width: 480px;
+    margin-bottom: 100px;
+  }
+  @media(max-width: 800px){
+      
+.scope{
+    width: 280px;
+    margin-right: 20px;
+  }
+  }
+  @media(max-width: 500px){
+      
+    .scope{
+        width: 220px;
+        padding-right: 10px;
+        box-sizing: border-box;
+      }
+      }
+
+
